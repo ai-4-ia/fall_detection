@@ -31,7 +31,7 @@ def _display_detected_frames(conf, model, st_frame, image, is_display_tracking=N
     res = model.predict(image, conf=conf)
     result_tensor = res[0].boxes
     if is_display_tracking:
-        tracker_test._display_detected_tracks(result_tensor.data, image)
+        tracker._display_detected_tracks(result_tensor.data, image)
 
     # Plot after drawing the tracking
     res_plotted = res[0].plot()
@@ -65,7 +65,7 @@ def play_webcam(conf, model):
             st_frame = st.empty()
             while (vid_cap.isOpened()):
                 success, image = vid_cap.read()
-                if cv.waitKey(1) == ord('q'):
+                if cv2.waitKey(1) == ord('q'):
                     break
                 if success:
                     _display_detected_frames(conf,
