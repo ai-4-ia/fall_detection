@@ -7,7 +7,7 @@ import settings
 from pathlib import Path
 
 # Setting custom Page Title and Icon with changed layout and sidebar state
-st.set_page_config(page_title='Fall Detection with YOLOv8', page_icon='logo/fall2.png', layout='wide', initial_sidebar_state='expanded')
+st.set_page_config(page_title='Fall Detection with YOLOv8', page_icon='logo\\fall2.png', layout='wide', initial_sidebar_state='expanded')
 
 def main():
     # Sidebar
@@ -51,8 +51,8 @@ def main():
         source_img = st.sidebar.file_uploader(
             "Choose an image...", type=("jpg", "jpeg", "png", 'bmp', 'webp'))
 
-        save_radio = st.sidebar.radio("Save image to download", ["Yes", "No"])
-        save = True if save_radio == 'Yes' else False
+        # save_radio = st.sidebar.radio("Save image to download", ["Yes", "No"])
+        # save = True if save_radio == 'Yes' else False
         col1, col2 = st.columns(2)
 
         with col1:
