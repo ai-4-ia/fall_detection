@@ -24,12 +24,12 @@ WEBCAM = 'Camera'
 SOURCES_LIST = [IMAGE, VIDEO, WEBCAM]
 
 # Images config
-IMAGES_DIR = os.path.join(ROOT, '..\\sample_data\\images')
+IMAGES_DIR = os.path.join(ROOT, '../sample_data/images')
 DEFAULT_IMAGE = os.path.join(IMAGES_DIR, 'image0.jpg')
 DEFAULT_DETECT_IMAGE = os.path.join(IMAGES_DIR, 'image0_detected.jpg')
 
 # Videos config
-VIDEOS_DIR = os.path.join(ROOT, '..\\sample_data\\videos')
+VIDEOS_DIR = os.path.join(ROOT, '../sample_data/videos')
 VIDEO_1_PATH = os.path.join(VIDEOS_DIR, 'video31.mp4')
 VIDEO_2_PATH = os.path.join(VIDEOS_DIR, 'video32.mp4')
 VIDEO_3_PATH = os.path.join(VIDEOS_DIR, 'video1.mp4')
