@@ -124,8 +124,7 @@ def play_stored_video(conf, model):
                                              image,
                                              is_display_tracker
                                              )
-
-                    
+                    # cv2.waitKey(5000)
                     # fps = int(vid_cap.get(cv2.CAP_PROP_FPS))
                     # st.sidebar.write("FPS: " + str(fps))
                 else:

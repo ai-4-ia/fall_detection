@@ -32,14 +32,14 @@ DEFAULT_DETECT_IMAGE = os.path.join(IMAGES_DIR, 'image0_detected.jpg')
 VIDEOS_DIR = os.path.join(ROOT, '../sample_data/videos')
 VIDEO_1_PATH = os.path.join(VIDEOS_DIR, 'video31.mp4')
 VIDEO_2_PATH = os.path.join(VIDEOS_DIR, 'video32.mp4')
-VIDEO_3_PATH = os.path.join(VIDEOS_DIR, 'video1.mp4')
-VIDEO_4_PATH = os.path.join(VIDEOS_DIR, 'video6.mp4')
-VIDEO_5_PATH = os.path.join(VIDEOS_DIR, 'video15.mp4')
-VIDEO_6_PATH = os.path.join(VIDEOS_DIR, 'video19.mp4')
-VIDEO_7_PATH = os.path.join(VIDEOS_DIR, 'video22.mp4')
-VIDEO_8_PATH = os.path.join(VIDEOS_DIR, 'video23.mp4')
-VIDEO_9_PATH = os.path.join(VIDEOS_DIR, 'video24.mp4')
-VIDEO_10_PATH = os.path.join(VIDEOS_DIR, 'test.mp4')
+VIDEO_3_PATH = os.path.join(VIDEOS_DIR, 'case1.mp4')
+VIDEO_4_PATH = os.path.join(VIDEOS_DIR, 'case2.mp4')
+VIDEO_5_PATH = os.path.join(VIDEOS_DIR, 'case3.mp4')
+VIDEO_6_PATH = os.path.join(VIDEOS_DIR, 'case4.mp4')
+VIDEO_7_PATH = os.path.join(VIDEOS_DIR, 'case5.mp4')
+VIDEO_8_PATH = os.path.join(VIDEOS_DIR, 'case6.mp4')
+VIDEO_9_PATH = os.path.join(VIDEOS_DIR, 'test.mp4')
+# VIDEO_10_PATH = os.path.join(VIDEOS_DIR, 'test.mp4')
 
 
 VIDEOS_DICT = {
@@ -52,7 +52,7 @@ VIDEOS_DICT = {
     'video_7': VIDEO_7_PATH,
     'video_8': VIDEO_8_PATH,
     'video_9': VIDEO_9_PATH,
-    'video_10': VIDEO_10_PATH,
+    # 'video_10': VIDEO_10_PATH,
 
 }
 
@@ -84,3 +84,5 @@ DETECT_LOCATOR = 'detect'
 # Webcam
 WEBCAM_PATH = 0 # Using IV Cam to connect camera or use default webcam
 # WEBCAM_PATH = 'http://192.168.1.12:8080/video' # IP has changed each time we run IP Webcam on the phone
+# WEBCAM_PATH = 'https://10.238.32.5:8080/video' # IP has changed each time we run IP Webcam on the phone
+# WEBCAM_PATH = 'http://192.168.43.1:8080/video' # IP has changed each time we run IP Webcam on the phone

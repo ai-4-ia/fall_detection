@@ -23,7 +23,7 @@ def main():
     model_type = 'Detection'
 
     confidence = float(st.sidebar.slider(
-        "Select Model Confidence", 25, 100, 25)) / 100
+        "Select Model Confidence", 25, 100, 40)) / 100
 
     if model_type == 'Detection':
         dirpath_locator = settings.DETECT_LOCATOR
