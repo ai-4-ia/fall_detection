@@ -9,3 +9,4 @@ scipy==1.11.1
 streamlit==1.22.0
 torch==1.13.0
 ultralytics==8.0.111
+# python 3.9.12
